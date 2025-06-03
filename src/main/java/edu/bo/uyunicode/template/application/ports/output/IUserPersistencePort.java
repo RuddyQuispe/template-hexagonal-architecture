@@ -11,6 +11,4 @@ public interface IUserPersistencePort {
     List<UserDto> findAll();
 
     UserDto save(UserDto userDto);
-
-    UserDto update(UserDto userDto);
 }

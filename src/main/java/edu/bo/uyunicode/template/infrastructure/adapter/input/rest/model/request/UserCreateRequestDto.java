@@ -1,4 +1,4 @@
-package edu.bo.uyunicode.template.infrastructure.input.rest.model.request;
+package edu.bo.uyunicode.template.infrastructure.adapter.input.rest.model.request;
 
 import jakarta.validation.constraints.NotBlank;
 

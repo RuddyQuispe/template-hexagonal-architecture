@@ -1,10 +1,10 @@
-package edu.bo.uyunicode.template.infrastructure.output;
+package edu.bo.uyunicode.template.infrastructure.adapter.output;
 
 import edu.bo.uyunicode.template.application.ports.output.IUserPersistencePort;
 import edu.bo.uyunicode.template.domain.model.UserDto;
-import edu.bo.uyunicode.template.infrastructure.output.persistence.entity.UserEntity;
-import edu.bo.uyunicode.template.infrastructure.output.persistence.mapper.IUserPersistenceMapper;
-import edu.bo.uyunicode.template.infrastructure.output.persistence.repository.IUserRepository;
+import edu.bo.uyunicode.template.infrastructure.adapter.output.persistence.entity.UserEntity;
+import edu.bo.uyunicode.template.infrastructure.adapter.output.persistence.mapper.IUserPersistenceMapper;
+import edu.bo.uyunicode.template.infrastructure.adapter.output.persistence.repository.IUserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

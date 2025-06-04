@@ -1,4 +1,4 @@
-package edu.bo.uyunicode.template.infrastructure.output.persistence.entity;
+package edu.bo.uyunicode.template.infrastructure.adapter.output.persistence.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
